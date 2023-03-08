@@ -58,16 +58,17 @@ main>p{
 input{
     padding: 10px;
     border-radius: 5px;
-    margin-left: 5px;
+    margin-left: 8px;
   
   
 
 }
+
 #botoes{
+   
     display: flex;
     justify-content: flex-end;
-    align-items: flex-end;
-    
+
 
 }
 #iniciopmain{
@@ -77,18 +78,22 @@ input{
 }
 
 section >div{
+    margin: auto;
    text-align: center;
     margin-top: 20px;
     margin-bottom: 35px;
    
 }
 div{
+ 
     background-color: white;
     border-radius: 15px 15px 0px 0px;
     padding-bottom: 20px;
     width: 300px;
     height: 360px;
-    margin: 0 auto;
+   display: grid;
+   align-items: center;
+   justify-content: center;
 
 }
 section >div >img{
@@ -99,37 +104,55 @@ section >div >img{
     text-align: center;
 
 }
-#evening{
-    
-}
+
 section>div>p{
    margin-left:10px;
    
 }
 
-footer{
-    padding: 15px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
 
 #num{
     border: 1px solid red;
 }
+#final{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: 40px;
+}
 
 
-@media screen and (min-width:520px){
-    body>h1{
-        
-        color: rgb(199, 37, 37);
-        
-       
-     }
-     #botoes{
-        max-width: 600px;
+@media screen and (min-width:700px){
+   
+
+    section {
+        margin: 0px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr  ;
+        grid-gap:40px ;
+      
      }
 }
-@media screen and (min-width:630px){
 
+@media screen and (min-width:890px){
+    section {
+        margin: 0px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr ;
+        grid-gap:10px ;
+      
+     }
+}
+
+@media screen and (min-width:1200px){
+    section {
+        margin: 0px;
+        padding-bottom: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap:10px ;
+      
+     }
 }
