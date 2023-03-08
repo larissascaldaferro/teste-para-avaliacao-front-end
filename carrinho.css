@@ -116,6 +116,9 @@ main>div>img{
         float: left;
         margin-bottom: 20px;
     }
+    #primeira{
+        display: none;
+    }
     #topo{
       clear: both;
         display: flex;
@@ -137,6 +140,13 @@ main>div>img{
     }
     hr{
         display: none;
+    }
+    .espacoum{
+        margin-top: 30px;
+    }
+    #es{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     main{
 
