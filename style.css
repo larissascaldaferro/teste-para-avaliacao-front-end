@@ -83,6 +83,10 @@ section >div{
     margin-top: 20px;
     margin-bottom: 35px;
    
+   
+}
+section > div >p{
+    margin-top: 8px;
 }
 div{
  
