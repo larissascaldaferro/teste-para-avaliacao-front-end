@@ -76,7 +76,25 @@ input{
     border-bottom: 2px solid red;
 
 }
-
+section > a{
+    margin: auto;
+    text-align: center;
+     margin-top: 20px;
+     margin-bottom: 35px;
+    
+}
+section > div >a>img{
+    margin: auto;
+    text-align: center;
+    width: 300px;
+     margin-top: 20px;
+     margin-bottom: 35px;
+     cursor: pointer;
+     
+}
+a{
+    text-decoration: none;
+}
 section >div{
     margin: auto;
    text-align: center;
